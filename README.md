@@ -6,8 +6,9 @@ These attributes (standardized income and standardized age) allow for a meaningf
 # K-means Clustering Steps
 The K-means clustering algorithm involves the following steps:
 
-Initialization: K initial centroids are assigned to the dataset.
-Assignment: Each observation is associated with the nearest centroid, creating K clusters.
-Update: The centroid of each cluster is recalculated based on the observations assigned to it.
-Convergence Check: If the centroids do not converge, the algorithm returns to step 2 for further iterations.
+1. Initialization: K initial centroids are assigned to the dataset.
+2. Assignment: Each observation is associated with the nearest centroid, creating K clusters.
+3. Update: The centroid of each cluster is recalculated based on the observations assigned to it.
+4. Convergence Check: If the centroids do not converge, the algorithm returns to step 2 for further iterations.
+5. 
 Throughout this project, these steps will be followed to perform K-means clustering on the customers dataset, aiming to identify distinct customer groups based on their income and age attributes.
